@@ -1,0 +1,19 @@
+{
+  "protocolVersion": "1.0",
+  "messageType": "TelemetryPacket",
+  "messageId": "tel-001",
+  "timestampUtc": "2026-05-20T00:00:00Z",
+  "payload": {
+    "deviceId": "SCX-DEVKIT-001",
+    "timestampUtc": "2026-05-20T00:00:00Z",
+    "rssi": -48,
+    "temperatureCelsius": 27,
+    "supplyMillivolts": 3300,
+    "firmwareVersion": "0.1.0",
+    "metrics": {
+      "freeHeapKb": 180,
+      "buttonPressCount": 3
+    }
+  }
+}
+

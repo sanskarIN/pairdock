@@ -1,0 +1,9 @@
+{
+  "deviceId": "SCX-DEVKIT-001",
+  "serialNumber": "SCX-2026-0001-000001",
+  "apiBaseUrl": "https://localhost:7241",
+  "telemetryIntervalSeconds": 30,
+  "brand": "PairDock",
+  "credit": "Made by Sanskar"
+}
+

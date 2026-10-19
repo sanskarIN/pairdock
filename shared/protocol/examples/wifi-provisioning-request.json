@@ -1,0 +1,13 @@
+{
+  "protocolVersion": "1.0",
+  "messageType": "WifiProvisioningRequest",
+  "messageId": "wifi-001",
+  "timestampUtc": "2026-05-20T00:00:00Z",
+  "payload": {
+    "pairingSessionId": "pair-session-001",
+    "ssid": "LabNetwork",
+    "password": "masked-in-docs",
+    "apiBaseUrl": "https://localhost:7241"
+  }
+}
+

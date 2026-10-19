@@ -1,0 +1,9 @@
+{
+  "version": "0.1.0",
+  "hardwareRevision": "rev-a",
+  "packageUrl": "https://firmware.example.local/scx/0.1.0.bin",
+  "sha256": "replace-with-real-package-hash",
+  "signature": "replace-with-real-signature",
+  "publishedUtc": "2026-05-20T00:00:00Z"
+}
+

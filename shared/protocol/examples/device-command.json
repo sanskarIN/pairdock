@@ -1,0 +1,17 @@
+{
+  "protocolVersion": "1.0",
+  "messageType": "DeviceCommand",
+  "messageId": "cmd-001",
+  "timestampUtc": "2026-05-20T00:00:00Z",
+  "payload": {
+    "commandId": "cmd-001",
+    "deviceId": "SCX-DEVKIT-001",
+    "commandType": "set_led",
+    "parameters": {
+      "mode": "pulse",
+      "color": "cyan"
+    },
+    "expiresUtc": "2026-05-20T00:05:00Z"
+  }
+}
+

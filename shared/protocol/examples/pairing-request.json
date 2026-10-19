@@ -1,0 +1,12 @@
+{
+  "protocolVersion": "1.0",
+  "messageType": "PairingRequest",
+  "messageId": "pair-001",
+  "timestampUtc": "2026-05-20T00:00:00Z",
+  "payload": {
+    "appInstanceId": "desktop-lab",
+    "pairingCode": "12345678",
+    "requestedUtc": "2026-05-20T00:00:00Z"
+  }
+}
+

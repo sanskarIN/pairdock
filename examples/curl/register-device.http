@@ -1,0 +1,12 @@
+### Register a device
+POST https://localhost:7241/api/devices
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "deviceId": "SCX-DEVKIT-001",
+  "serialNumber": "SCX-2026-0001-000001",
+  "displayName": "Lab DevKit",
+  "hardwareRevision": "rev-a"
+}
+

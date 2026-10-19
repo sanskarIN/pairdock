@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>Protocol contracts for PairDock.</Description>
+  </PropertyGroup>
+</Project>
+

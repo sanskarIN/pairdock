@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\shared\protocol\csharp\SanskarConnectX.Protocol.csproj" />
+  </ItemGroup>
+  <PropertyGroup>
+    <Description>C# SDK for PairDock.</Description>
+  </PropertyGroup>
+</Project>
+

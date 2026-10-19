@@ -1,0 +1,19 @@
+@inherits LayoutComponentBase
+
+<div class="app-shell">
+  <aside class="sidebar">
+    <div class="brand">PairDock</div>
+    <NavMenu />
+  </aside>
+  <main class="main">
+    <header class="topbar">
+      <span>Pair, provision, monitor, and update Wi-Fi and Bluetooth devices.</span>
+      <ThemeToggle />
+    </header>
+    <section class="content">
+      @Body
+    </section>
+    <Footer />
+  </main>
+</div>
+

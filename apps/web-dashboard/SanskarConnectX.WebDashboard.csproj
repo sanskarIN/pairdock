@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <ItemGroup>
+    <ProjectReference Include="..\..\sdk\SanskarConnectX.Sdk.csproj" />
+  </ItemGroup>
+  <PropertyGroup>
+    <Description>Blazor dashboard for PairDock.</Description>
+  </PropertyGroup>
+</Project>
+

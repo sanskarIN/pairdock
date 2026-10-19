@@ -1,0 +1,22 @@
+<section class="panel">
+  <div class="panel-header">
+    <h2>Activity</h2>
+    <span>Live sample feed</span>
+  </div>
+  <div class="activity-list">
+    @foreach (var item in Events)
+    {
+      <article>
+        <span class="activity-severity">@item.Severity</span>
+        <strong>@item.Title</strong>
+        <p>@item.Message</p>
+        <small>@item.TimestampUtc.ToLocalTime().ToString("HH:mm:ss")</small>
+      </article>
+    }
+  </div>
+</section>
+
+@code {
+    [Parameter]
+    public IReadOnlyList<ActivityEvent> Events { get; set; } = Array.Empty<ActivityEvent>();
+}

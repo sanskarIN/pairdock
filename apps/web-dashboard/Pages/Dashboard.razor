@@ -1,0 +1,41 @@
+@page "/dashboard"
+@inject SanskarConnectX.WebDashboard.Services.DashboardApiClient Api
+
+<div class="page-heading">
+  <div>
+    <h1>Dashboard</h1>
+    <p>Fleet state, provisioning health, telemetry, and OTA rollout for PairDock.</p>
+  </div>
+  <span class="badge online">Cloud connected</span>
+</div>
+
+@if (summary is null)
+{
+  <section class="panel">Loading dashboard...</section>
+}
+else
+{
+  <FleetSummaryCard Summary="summary" />
+  <div class="grid">
+    <DeviceStatusCard />
+    <TelemetryChart />
+    <FirmwareRolloutPanel Rollout="rollout" />
+    <ActivityFeed Events="activity" />
+  </div>
+  <DeviceTable Devices="devices" />
+}
+
+@code {
+    private DashboardSummary? summary;
+    private FirmwareRolloutStatus? rollout;
+    private IReadOnlyList<DeviceDashboardRow> devices = Array.Empty<DeviceDashboardRow>();
+    private IReadOnlyList<ActivityEvent> activity = Array.Empty<ActivityEvent>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        summary = await Api.GetSummaryAsync(CancellationToken.None);
+        rollout = await Api.GetFirmwareRolloutAsync(CancellationToken.None);
+        devices = await Api.GetDevicesAsync(CancellationToken.None);
+        activity = await Api.GetActivityAsync(CancellationToken.None);
+    }
+}

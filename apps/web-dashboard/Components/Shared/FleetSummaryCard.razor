@@ -1,0 +1,27 @@
+<section class="summary-strip">
+  <article class="metric-card">
+    <span>Total devices</span>
+    <strong>@Summary?.TotalDevices</strong>
+  </article>
+  <article class="metric-card">
+    <span>Online</span>
+    <strong>@Summary?.OnlineDevices</strong>
+  </article>
+  <article class="metric-card">
+    <span>Provisioning</span>
+    <strong>@Summary?.ProvisioningDevices</strong>
+  </article>
+  <article class="metric-card">
+    <span>OTA pending</span>
+    <strong>@Summary?.FirmwareUpdatesPending</strong>
+  </article>
+  <article class="metric-card danger">
+    <span>Open alerts</span>
+    <strong>@Summary?.AlertsOpen</strong>
+  </article>
+</section>
+
+@code {
+    [Parameter]
+    public DashboardSummary? Summary { get; set; }
+}

@@ -1,0 +1,20 @@
+<section class="panel">
+  <div class="panel-header">
+    <h2>Firmware rollout</h2>
+    <span>@Rollout?.Version / @Rollout?.HardwareRevision</span>
+  </div>
+  <div class="rollout-meter">
+    <div style="width:@ProgressPercent%"></div>
+  </div>
+  <p>@Rollout?.CompletedDevices of @Rollout?.EligibleDevices eligible devices updated. @Rollout?.FailedDevices failures.</p>
+</section>
+
+@code {
+    [Parameter]
+    public FirmwareRolloutStatus? Rollout { get; set; }
+
+    private int ProgressPercent =>
+        Rollout is null || Rollout.EligibleDevices == 0
+            ? 0
+            : (int)Math.Round((double)Rollout.CompletedDevices / Rollout.EligibleDevices * 100);
+}

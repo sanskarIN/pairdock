@@ -12,6 +12,7 @@ Support the open-source developer: [Buy Me a Coffee](https://buymeacoffee.com/Sa
 
 - [Architecture Overview](architecture-overview.md)
 - [Phase 2 Summary](phase-2-summary.md)
+- [First Developer Preview](releases/0.1.0-preview.1.md)
 - [Getting Started](getting-started.md)
 - [Firmware Guide](firmware-guide.md)
 - [Backend Guide](backend-guide.md)

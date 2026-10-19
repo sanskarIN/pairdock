@@ -4,5 +4,12 @@
   </ItemGroup>
   <PropertyGroup>
     <Description>C# SDK for PairDock.</Description>
+    <PackageId>PairDock.Sdk</PackageId>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/sanskarIN/pairdock</PackageProjectUrl>
   </PropertyGroup>
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
 </Project>

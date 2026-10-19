@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <Description>Wi-Fi scanner concept for PairDock.</Description>
+  </PropertyGroup>
+</Project>
+

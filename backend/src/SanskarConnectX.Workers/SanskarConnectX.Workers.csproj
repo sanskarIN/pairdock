@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+  <ItemGroup>
+    <ProjectReference Include="..\SanskarConnectX.Application\SanskarConnectX.Application.csproj" />
+    <ProjectReference Include="..\SanskarConnectX.Infrastructure\SanskarConnectX.Infrastructure.csproj" />
+  </ItemGroup>
+  <PropertyGroup>
+    <Description>Background workers for PairDock.</Description>
+  </PropertyGroup>
+</Project>
+

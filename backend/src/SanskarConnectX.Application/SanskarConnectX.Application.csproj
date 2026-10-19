@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\SanskarConnectX.Domain\SanskarConnectX.Domain.csproj" />
+  </ItemGroup>
+  <PropertyGroup>
+    <Description>Application use cases for PairDock.</Description>
+  </PropertyGroup>
+</Project>
+

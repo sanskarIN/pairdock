@@ -1,0 +1,36 @@
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: scx
+      POSTGRES_PASSWORD: scx-development-password
+      POSTGRES_DB: sanskar_connectx
+    ports:
+      - "5432:5432"
+    volumes:
+      - scx_postgres:/var/lib/postgresql/data
+
+  backend:
+    build:
+      context: ..
+      dockerfile: devops/docker/backend.Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      Jwt__SigningKey: ${PAIRDOCK_JWT_SIGNING_KEY:?Set PAIRDOCK_JWT_SIGNING_KEY to a random secret of at least 32 bytes}
+    ports:
+      - "7241:8080"
+    depends_on:
+      - postgres
+
+  dashboard:
+    build:
+      context: ..
+      dockerfile: devops/docker/dashboard.Dockerfile
+    ports:
+      - "5080:8080"
+    depends_on:
+      - backend
+
+volumes:
+  scx_postgres:
+

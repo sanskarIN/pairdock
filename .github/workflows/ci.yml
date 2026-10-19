@@ -1,0 +1,55 @@
+name: PairDock CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  dotnet:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: |
+            8.0.x
+            10.0.x
+      - name: Build API
+        run: dotnet build backend/src/SanskarConnectX.Api/SanskarConnectX.Api.csproj -c Release -m:1
+      - name: Build dashboard
+        run: dotnet build apps/web-dashboard/SanskarConnectX.WebDashboard.csproj -c Release -m:1
+      - name: Test application
+        run: dotnet test backend/tests/SanskarConnectX.Application.Tests/SanskarConnectX.Application.Tests.csproj -c Release -m:1
+      - name: Test infrastructure
+        run: dotnet test backend/tests/SanskarConnectX.Infrastructure.Tests/SanskarConnectX.Infrastructure.Tests.csproj -c Release -m:1
+      - name: Test API
+        run: dotnet test backend/tests/SanskarConnectX.Api.Tests/SanskarConnectX.Api.Tests.csproj -c Release -m:1
+      - name: Test protocol
+        run: dotnet test tests/Protocol.Tests/Protocol.Tests.csproj -c Release -m:1
+      - name: Test SDK
+        run: dotnet test tests/Sdk.Tests/Sdk.Tests.csproj -c Release -m:1
+
+  desktop:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: |
+            8.0.x
+            10.0.x
+      - name: Test desktop view models
+        run: dotnet test tests/Desktop.Tests/Desktop.Tests.csproj -c Release -m:1
+
+  firmware-host:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure and build
+        run: |
+          cmake -S firmware -B firmware/build
+          cmake --build firmware/build
+      - name: Run host tests
+        run: ctest --test-dir firmware/build --output-on-failure

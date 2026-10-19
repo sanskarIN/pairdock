@@ -1,0 +1,11 @@
+<UserControl x:Class="SanskarConnectX.Desktop.Controls.SignalStrengthIndicator"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom">
+    <Rectangle Width="4" Height="8" Fill="#06B6D4" Margin="2" />
+    <Rectangle Width="4" Height="12" Fill="#06B6D4" Margin="2" />
+    <Rectangle Width="4" Height="16" Fill="#06B6D4" Margin="2" />
+    <Rectangle Width="4" Height="20" Fill="#06B6D4" Margin="2" />
+  </StackPanel>
+</UserControl>
+

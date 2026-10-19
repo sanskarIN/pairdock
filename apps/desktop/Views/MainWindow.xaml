@@ -1,0 +1,29 @@
+<Window x:Class="SanskarConnectX.Desktop.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="PairDock" Height="860" Width="1280"
+        Background="{DynamicResource ScxBackgroundBrush}">
+  <DockPanel>
+    <Border DockPanel.Dock="Bottom" Padding="16" Background="{DynamicResource ScxPanelBrush}">
+      <TextBlock Text="PairDock - Made by Sanskar" Foreground="{DynamicResource ScxMutedTextBrush}" HorizontalAlignment="Center" />
+    </Border>
+    <Grid>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="260" />
+        <ColumnDefinition Width="*" />
+      </Grid.ColumnDefinitions>
+      <StackPanel Background="{DynamicResource ScxPanelBrush}" Margin="24">
+        <TextBlock Text="PairDock" Foreground="{DynamicResource ScxTextBrush}" FontSize="24" FontWeight="Bold" />
+        <TextBlock Text="Dashboard" Foreground="{DynamicResource ScxAccentBrush}" Margin="0,32,0,8" />
+        <TextBlock Text="Devices" Foreground="{DynamicResource ScxMutedTextBrush}" Margin="0,8,0,8" />
+        <TextBlock Text="Wi-Fi Setup" Foreground="{DynamicResource ScxMutedTextBrush}" Margin="0,8,0,8" />
+        <TextBlock Text="Bluetooth Pairing" Foreground="{DynamicResource ScxMutedTextBrush}" Margin="0,8,0,8" />
+        <TextBlock Text="Telemetry" Foreground="{DynamicResource ScxMutedTextBrush}" Margin="0,8,0,8" />
+        <TextBlock Text="Firmware" Foreground="{DynamicResource ScxMutedTextBrush}" Margin="0,8,0,8" />
+        <TextBlock Text="Settings" Foreground="{DynamicResource ScxMutedTextBrush}" Margin="0,8,0,8" />
+        <TextBlock Text="About" Foreground="{DynamicResource ScxMutedTextBrush}" Margin="0,8,0,8" />
+      </StackPanel>
+      <ContentControl Grid.Column="1" Margin="32" />
+    </Grid>
+  </DockPanel>
+</Window>

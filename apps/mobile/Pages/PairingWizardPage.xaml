@@ -1,0 +1,10 @@
+<ContentPage x:Class="SanskarConnectX.Mobile.Pages.PairingWizardPage"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+  <VerticalStackLayout Padding="24" Spacing="16">
+    <Label Text="Bluetooth pairing" FontSize="28" FontAttributes="Bold" />
+    <Label Text="Scanning for nearby PairDock devices." />
+    <Button Text="Pair device" />
+  </VerticalStackLayout>
+</ContentPage>
+

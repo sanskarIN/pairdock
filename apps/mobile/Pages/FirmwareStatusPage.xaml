@@ -1,0 +1,9 @@
+<ContentPage x:Class="SanskarConnectX.Mobile.Pages.FirmwareStatusPage"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+  <VerticalStackLayout Padding="24">
+    <Label Text="Firmware update" FontSize="28" FontAttributes="Bold" />
+    <ProgressBar Progress="0.42" />
+  </VerticalStackLayout>
+</ContentPage>
+

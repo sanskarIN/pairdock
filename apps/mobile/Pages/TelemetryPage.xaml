@@ -1,0 +1,9 @@
+<ContentPage x:Class="SanskarConnectX.Mobile.Pages.TelemetryPage"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+  <VerticalStackLayout Padding="24">
+    <Label Text="Telemetry" FontSize="28" FontAttributes="Bold" />
+    <Label Text="RSSI -48 dBm, Temperature 27 C, Supply 3300 mV" />
+  </VerticalStackLayout>
+</ContentPage>
+

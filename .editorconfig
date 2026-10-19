@@ -1,0 +1,18 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+trim_trailing_whitespace = true
+
+[*.{cs,razor,cshtml}]
+indent_size = 4
+
+[*.{c,h,cpp,hpp,S,sql,md,yml,yaml,json,xml,xaml,ps1,sh,py}]
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false
+

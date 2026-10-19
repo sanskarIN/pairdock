@@ -1,0 +1,19 @@
+{
+  "name": "PairDock",
+  "tagline": "Pair, provision, monitor, and update Wi-Fi and Bluetooth devices.",
+  "author": "Sanskar",
+  "credit": "Made by Sanskar",
+  "phase": "Pre-release foundation",
+  "createdOn": "2026-05-20",
+  "architecture": [
+    "Embedded firmware",
+    "ASP.NET Core backend",
+    "C# desktop app",
+    "C# mobile app",
+    "Blazor web dashboard",
+    "C# SDK",
+    "SQL database",
+    "DevOps and manufacturing"
+  ]
+}
+

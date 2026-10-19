@@ -1,0 +1,15 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <Company>PairDock</Company>
+    <Authors>Sanskar</Authors>
+    <Product>PairDock - Pair, provision, monitor, and update Wi-Fi and Bluetooth devices.</Product>
+    <Copyright>Copyright (c) 2026 Sanskar</Copyright>
+    <RepositoryUrl>https://github.com/sanskarIN/pairdock</RepositoryUrl>
+  </PropertyGroup>
+</Project>
+

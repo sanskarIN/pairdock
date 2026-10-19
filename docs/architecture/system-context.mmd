@@ -1,0 +1,23 @@
+flowchart LR
+  User["User or Admin"]
+  Desktop["Desktop App"]
+  Mobile["Mobile App"]
+  Dashboard["Web Dashboard"]
+  Api["Backend API"]
+  Db["Database"]
+  Device["PairDock Device"]
+  Worker["Background Workers"]
+  Tools["CLI Tools"]
+
+  User --> Desktop
+  User --> Mobile
+  User --> Dashboard
+  Desktop --> Api
+  Mobile --> Api
+  Dashboard --> Api
+  Tools --> Api
+  Api --> Db
+  Worker --> Db
+  Device --> Api
+  Mobile --> Device
+

@@ -1,0 +1,17 @@
+#ifndef SCX_ERROR_H
+#define SCX_ERROR_H
+
+typedef enum scx_error_t {
+  SCX_OK = 0,
+  SCX_ERROR_UNKNOWN = -1,
+  SCX_ERROR_INVALID_ARGUMENT = -2,
+  SCX_ERROR_TIMEOUT = -3,
+  SCX_ERROR_NOT_READY = -4,
+  SCX_ERROR_STORAGE = -5,
+  SCX_ERROR_NETWORK = -6,
+  SCX_ERROR_AUTHENTICATION = -7,
+  SCX_ERROR_OTA = -8
+} scx_error_t;
+
+#endif
+

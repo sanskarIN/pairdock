@@ -1,0 +1,13 @@
+#ifndef SCX_BOARD_PINS_H
+#define SCX_BOARD_PINS_H
+
+#define SCX_PIN_STATUS_LED 2
+#define SCX_PIN_FACTORY_BUTTON 0
+#define SCX_PIN_SENSOR_ADC 1
+#define SCX_UART_DEBUG_PORT 0
+#define SCX_I2C_SENSOR_BUS 0
+#define SCX_SPI_FLASH_BUS 1
+#define SCX_PWM_LED_CHANNEL 0
+
+#endif
+

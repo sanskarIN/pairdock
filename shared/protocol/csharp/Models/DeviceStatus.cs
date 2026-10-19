@@ -7,4 +7,3 @@ public sealed record DeviceStatus(
     int Rssi,
     long UptimeSeconds,
     DateTimeOffset TimestampUtc);
-

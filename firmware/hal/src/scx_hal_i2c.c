@@ -13,4 +13,3 @@ scx_error_t scx_hal_i2c_read(int bus, uint8_t address, uint8_t *buffer, size_t l
   (void)address;
   return bus >= 0 && buffer != 0 && length > 0 ? SCX_OK : SCX_ERROR_INVALID_ARGUMENT;
 }
-

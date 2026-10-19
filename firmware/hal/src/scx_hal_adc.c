@@ -11,4 +11,3 @@ scx_error_t scx_hal_adc_read(int channel, uint16_t *millivolts) {
   *millivolts = 3300;
   return SCX_OK;
 }
-

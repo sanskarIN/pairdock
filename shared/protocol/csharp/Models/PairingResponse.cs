@@ -6,4 +6,3 @@ public sealed record PairingResponse(
     string DeviceId,
     ErrorCode ErrorCode,
     string Message);
-

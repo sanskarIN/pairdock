@@ -11,4 +11,3 @@ bool PowerManager::lowPowerModeEnabled() const {
 }
 
 }
-

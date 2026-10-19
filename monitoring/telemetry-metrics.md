@@ -16,4 +16,3 @@
 - Command latency.
 - OTA success rate.
 - Active device count.
-

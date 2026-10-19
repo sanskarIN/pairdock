@@ -19,4 +19,3 @@ public sealed class FirmwareRepository : IFirmwareRepository
     public async Task AddAsync(FirmwareVersion version, CancellationToken cancellationToken) =>
         await dbContext.FirmwareVersions.AddAsync(version, cancellationToken);
 }
-

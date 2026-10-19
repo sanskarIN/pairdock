@@ -22,4 +22,3 @@ public sealed class DeviceCertificate : Entity
 
     public void Revoke(DateTimeOffset timestampUtc) => RevokedUtc = timestampUtc;
 }
-

@@ -22,4 +22,3 @@ public sealed class User : Entity
         Role = role;
     }
 }
-

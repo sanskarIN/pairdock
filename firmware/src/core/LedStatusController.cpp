@@ -11,4 +11,3 @@ DeviceState LedStatusController::lastState() const {
 }
 
 }
-

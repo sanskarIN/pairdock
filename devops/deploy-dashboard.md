@@ -7,4 +7,3 @@
 3. Deploy behind TLS.
 4. Verify login and dashboard routes.
 5. Confirm footer displays "PairDock - Made by Sanskar".
-

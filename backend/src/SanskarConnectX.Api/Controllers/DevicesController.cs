@@ -38,4 +38,3 @@ public sealed class DevicesController : ControllerBase
         return result.Succeeded ? Ok(result.Data) : NotFound(result);
     }
 }
-

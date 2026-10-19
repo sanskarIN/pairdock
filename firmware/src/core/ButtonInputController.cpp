@@ -11,4 +11,3 @@ bool ButtonInputController::factoryResetRequested() const {
 }
 
 }
-

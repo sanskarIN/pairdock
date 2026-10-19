@@ -6,4 +6,3 @@ ROOT_DIR="$SCRIPT_DIR/../.."
 
 cmake -S "$ROOT_DIR/firmware" -B "$ROOT_DIR/firmware/build"
 cmake --build "$ROOT_DIR/firmware/build"
-

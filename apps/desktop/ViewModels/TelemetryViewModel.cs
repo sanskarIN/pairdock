@@ -6,4 +6,3 @@ public sealed class TelemetryViewModel : ViewModelBase
     public int TemperatureCelsius { get; init; } = 27;
     public int SupplyMillivolts { get; init; } = 3300;
 }
-

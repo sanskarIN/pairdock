@@ -5,4 +5,3 @@
   <Color x:Key="ScxCyan">#06B6D4</Color>
   <SolidColorBrush x:Key="ScxAccentBrush" Color="{StaticResource ScxCyan}" />
 </ResourceDictionary>
-

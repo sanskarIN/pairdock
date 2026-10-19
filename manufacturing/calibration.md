@@ -12,4 +12,3 @@ Calibration records should include:
 - Operator or station ID.
 
 SCX-TODO: Add calibration upload API in Phase 2.
-

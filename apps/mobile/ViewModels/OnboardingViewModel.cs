@@ -8,4 +8,3 @@ public sealed class OnboardingViewModel : MobileViewModelBase
     public string Subtitle => MobileBranding.Tagline;
     public string Credit => MobileBranding.Credit;
 }
-

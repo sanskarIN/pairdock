@@ -23,4 +23,3 @@ Use a modular repository with explicit source boundaries:
 - More folders upfront.
 - Clear expansion path beyond 1000 meaningful files.
 - Independent teams can own firmware, cloud, app, tooling, and manufacturing areas.
-

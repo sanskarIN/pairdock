@@ -8,4 +8,3 @@
 - Visible focus outlines.
 - Status is not communicated by color alone.
 - Loading and empty states use clear text.
-

@@ -29,4 +29,3 @@ Use prefixes:
 - UI changes honor design-system tokens.
 - Logs avoid secrets and personal data.
 - Documentation reflects changed behavior.
-

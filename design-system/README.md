@@ -14,4 +14,3 @@ Made by Sanskar.
 - [Accessibility](accessibility.md)
 - [Dark Mode](dark-mode.md)
 - [UI Principles](ui-principles.md)
-

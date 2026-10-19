@@ -9,4 +9,3 @@
     <ProjectReference Include="..\..\sdk\SanskarConnectX.Sdk.csproj" />
   </ItemGroup>
 </Project>
-

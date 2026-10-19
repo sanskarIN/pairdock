@@ -7,4 +7,3 @@
 - Store only what the device needs.
 - Prefer WPA2/WPA3 networks.
 - Expose clear errors for authentication failure without revealing secrets.
-

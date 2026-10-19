@@ -8,4 +8,3 @@ public sealed record BinaryPacketHeader(
     uint Sequence,
     ushort PayloadLength,
     ushort HeaderCrc);
-

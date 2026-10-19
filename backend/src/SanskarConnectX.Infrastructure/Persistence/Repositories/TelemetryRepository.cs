@@ -23,4 +23,3 @@ public sealed class TelemetryRepository : ITelemetryRepository
             .Take(take)
             .ToListAsync(cancellationToken);
 }
-

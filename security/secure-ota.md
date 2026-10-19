@@ -9,4 +9,3 @@
 - Post-install health confirmation.
 
 SCX-TODO: Implement package signing verification in firmware and tooling.
-

@@ -21,4 +21,3 @@ public sealed class ApiKey : Entity
         ExpiresUtc = expiresUtc;
     }
 }
-

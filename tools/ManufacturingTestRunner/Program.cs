@@ -7,4 +7,3 @@ foreach (var test in tests)
 {
     Console.WriteLine($"{test}: PASS");
 }
-

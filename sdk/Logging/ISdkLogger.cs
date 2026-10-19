@@ -6,4 +6,3 @@ public interface ISdkLogger
     void Warning(string message);
     void Error(string message, Exception? exception = null);
 }
-

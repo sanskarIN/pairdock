@@ -10,4 +10,3 @@ public enum DeviceConnectionState
     Updating = 5,
     Fault = 6
 }
-

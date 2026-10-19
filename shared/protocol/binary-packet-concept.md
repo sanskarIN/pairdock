@@ -17,4 +17,3 @@ The Phase 1 protocol uses JSON for clarity. A future constrained transport can u
 ## Payload
 
 Payload can be JSON, CBOR, MessagePack, or protobuf in future phases.
-

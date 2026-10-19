@@ -13,4 +13,3 @@ Manufacturing assets live in `manufacturing/`.
 7. Package device with label and documentation.
 
 SCX-TODO: Add manufacturing station API and QR label generation in Phase 2.
-

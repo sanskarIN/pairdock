@@ -22,4 +22,3 @@ public sealed class DeviceClient
         return SdkResult<IReadOnlyList<DeviceSummary>>.Success(devices ?? new List<DeviceSummary>());
     }
 }
-

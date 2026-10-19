@@ -32,4 +32,3 @@ public sealed class FirmwareController : ControllerBase
         return result.Succeeded ? Ok(result.Data) : BadRequest(result);
     }
 }
-

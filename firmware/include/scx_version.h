@@ -9,4 +9,3 @@
 #define SCX_FIRMWARE_VERSION_PATCH 0
 
 #endif
-

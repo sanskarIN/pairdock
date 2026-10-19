@@ -30,4 +30,3 @@ Made by Sanskar
 The desktop UX uses a premium SaaS dashboard feel with a sidebar, top status bar, rounded cards, dark/light themes, badges, signal indicators, and keyboard-friendly navigation.
 
 SCX-TODO: Phase 2 should connect ViewModels to SDK clients and add test coverage.
-

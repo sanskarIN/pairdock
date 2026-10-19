@@ -29,4 +29,3 @@ public sealed class AuthController : ControllerBase
         return result.Succeeded ? Ok(result.Data) : Unauthorized(result);
     }
 }
-

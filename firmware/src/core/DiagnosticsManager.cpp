@@ -11,4 +11,3 @@ const std::vector<std::string> &DiagnosticsManager::messages() const {
 }
 
 }
-

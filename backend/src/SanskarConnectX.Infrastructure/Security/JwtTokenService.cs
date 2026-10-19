@@ -33,4 +33,3 @@ public sealed class JwtTokenService : IJwtTokenService
         return new JwtSecurityTokenHandler().WriteToken(token);
     }
 }
-

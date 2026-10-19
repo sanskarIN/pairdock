@@ -8,4 +8,3 @@
 - Bluetooth pairing state.
 - Firmware update progress.
 - About page branding.
-

@@ -15,4 +15,3 @@ Made by Sanskar.
 - Firmware update status.
 - Offline mode concept.
 - Settings and About.
-

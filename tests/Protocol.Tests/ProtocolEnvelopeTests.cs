@@ -11,4 +11,3 @@ public sealed class ProtocolEnvelopeTests
         Assert.Equal("1.0", MessageVersion.Current.ToString());
     }
 }
-

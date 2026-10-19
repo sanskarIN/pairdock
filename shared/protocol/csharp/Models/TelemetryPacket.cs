@@ -8,4 +8,3 @@ public sealed record TelemetryPacket(
     int SupplyMillivolts,
     string FirmwareVersion,
     IReadOnlyDictionary<string, double> Metrics);
-

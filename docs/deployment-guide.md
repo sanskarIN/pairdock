@@ -15,4 +15,3 @@
 - Database migrations.
 
 SCX-TODO: Add infrastructure-as-code examples in Phase 3.
-

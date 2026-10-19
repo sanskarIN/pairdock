@@ -24,4 +24,3 @@
 - Firmware manifests are signed.
 - Secrets are never logged.
 - Device certificates are rotated through controlled flows.
-

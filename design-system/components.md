@@ -20,4 +20,3 @@
 - Avoid nested cards.
 - Use icons for tool actions.
 - Keep status color and text paired for accessibility.
-

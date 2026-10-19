@@ -12,4 +12,3 @@ bool MockHal::gpio(int pin) const {
 }
 
 }
-

@@ -26,4 +26,3 @@ public sealed class FirmwareVersion : Entity
 
     public void Activate() => IsActive = true;
 }
-

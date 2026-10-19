@@ -7,4 +7,3 @@
 - Error code mapping.
 - Firmware manifest compatibility.
 - Binary packet header parsing.
-

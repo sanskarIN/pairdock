@@ -7,4 +7,3 @@
     <ProjectReference Include="..\..\src\SanskarConnectX.Api\SanskarConnectX.Api.csproj" />
   </ItemGroup>
 </Project>
-

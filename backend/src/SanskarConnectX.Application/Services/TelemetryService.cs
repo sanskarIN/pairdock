@@ -34,4 +34,3 @@ public sealed class TelemetryService : ITelemetryService
         return ApiResult<string>.Success("accepted");
     }
 }
-

@@ -23,4 +23,3 @@ Every protocol message uses an envelope with:
 - Older components can reject unsupported versions clearly.
 - New optional fields can be added without breaking Phase 1 contracts.
 - Binary transport can map to the same conceptual message family later.
-

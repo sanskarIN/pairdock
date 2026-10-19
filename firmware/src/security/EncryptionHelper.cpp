@@ -15,4 +15,3 @@ std::string EncryptionHelper::hashForLog(const std::string &value) const {
 }
 
 }
-

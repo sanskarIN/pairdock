@@ -7,4 +7,3 @@ public sealed class OfflineQueueService
     public void Enqueue(string operation) => operations.Enqueue(operation);
     public int Count => operations.Count;
 }
-

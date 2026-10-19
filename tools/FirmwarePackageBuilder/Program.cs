@@ -6,4 +6,3 @@ var manifest = new PackageManifest(version, "rev-a", "phase1-hash-placeholder", 
 Console.WriteLine("PairDock Firmware Package Builder");
 Console.WriteLine("Made by Sanskar");
 Console.WriteLine(manifest);
-

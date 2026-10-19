@@ -10,4 +10,3 @@ bool FactoryResetManager::reset() {
 }
 
 }
-

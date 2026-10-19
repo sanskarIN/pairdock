@@ -14,4 +14,3 @@ Made by Sanskar.
 - Bluetooth test tool concept.
 - Wi-Fi scanner concept.
 - Manufacturing test runner.
-

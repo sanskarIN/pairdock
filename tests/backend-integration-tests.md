@@ -8,4 +8,3 @@
 - Reject telemetry from unknown device.
 - Admin creates firmware version.
 - Health endpoint returns healthy.
-

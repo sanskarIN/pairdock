@@ -33,4 +33,3 @@ public sealed class FirmwareService : IFirmwareService
     private static FirmwareVersionDto ToDto(FirmwareVersion version) =>
         new(version.Id, version.Version, version.HardwareRevision, version.PackageUrl, version.Sha256, version.IsActive);
 }
-

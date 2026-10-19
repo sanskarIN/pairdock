@@ -20,4 +20,3 @@ var devices = await sdk.Devices.ListAsync(CancellationToken.None);
 ```
 
 SCX-TODO: Generate SDK clients from OpenAPI in Phase 3.
-

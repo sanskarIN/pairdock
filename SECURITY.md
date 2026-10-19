@@ -23,4 +23,3 @@ Report vulnerabilities privately to the project maintainer. Do not publish explo
 - Require ownership checks before device commands.
 
 Made by Sanskar.
-

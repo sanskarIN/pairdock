@@ -14,4 +14,3 @@ Firmware tests use host mocks before hardware-in-loop tests are available.
 - Factory reset flow.
 
 SCX-TODO: Add Unity, Catch2, or GoogleTest host test target in Phase 2.
-

@@ -6,4 +6,3 @@
     <Label Text="RSSI -48 dBm, Temperature 27 C, Supply 3300 mV" />
   </VerticalStackLayout>
 </ContentPage>
-

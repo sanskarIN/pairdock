@@ -7,4 +7,3 @@
 - Keep navigation predictable.
 - Use direct, friendly errors.
 - Always include PairDock branding and "Made by Sanskar" in about and footer contexts.
-

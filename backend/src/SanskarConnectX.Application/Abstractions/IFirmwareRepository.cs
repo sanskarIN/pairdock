@@ -7,4 +7,3 @@ public interface IFirmwareRepository
     Task<IReadOnlyList<FirmwareVersion>> ListAsync(CancellationToken cancellationToken);
     Task AddAsync(FirmwareVersion version, CancellationToken cancellationToken);
 }
-

@@ -24,4 +24,3 @@
 - Confirm Wi-Fi credentials are not logged.
 
 SCX-TODO: Add known error code lookup table in Phase 2.
-

@@ -7,4 +7,3 @@ public interface ITelemetryService
 {
     Task<ApiResult<string>> IngestAsync(TelemetryIngestRequest request, CancellationToken cancellationToken);
 }
-

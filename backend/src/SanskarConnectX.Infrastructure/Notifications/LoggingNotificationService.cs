@@ -18,4 +18,3 @@ public sealed class LoggingNotificationService : INotificationService
         return Task.CompletedTask;
     }
 }
-

@@ -9,4 +9,3 @@
 #define SCX_TELEMETRY_QUEUE_LENGTH 16
 
 #endif
-

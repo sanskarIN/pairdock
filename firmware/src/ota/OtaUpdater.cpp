@@ -17,4 +17,3 @@ OtaUpdateState OtaUpdater::state() const {
 }
 
 }
-

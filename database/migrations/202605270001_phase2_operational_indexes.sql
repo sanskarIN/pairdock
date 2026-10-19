@@ -6,4 +6,3 @@ CREATE INDEX IF NOT EXISTS IX_DeviceCertificates_Device_Revoked ON DeviceCertifi
 CREATE INDEX IF NOT EXISTS IX_Telemetry_CreatedUtc ON Telemetry(CreatedUtc DESC);
 
 COMMIT;
-

@@ -15,4 +15,3 @@ const char *scx_board_name(void);
 #endif
 
 #endif
-

@@ -19,4 +19,3 @@
 6. Provision Wi-Fi.
 7. Send telemetry.
 8. Execute OTA update.
-

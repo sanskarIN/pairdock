@@ -7,4 +7,3 @@ Shared assets for PairDock.
 - `protocol/`: versioned message contracts used by firmware, backend, apps, tools, and SDKs.
 
 Made by Sanskar.
-

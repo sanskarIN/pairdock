@@ -32,4 +32,3 @@ Every message is wrapped in a protocol envelope:
 ```
 
 SCX-TODO: Add generated code for firmware C structs in Phase 2.
-

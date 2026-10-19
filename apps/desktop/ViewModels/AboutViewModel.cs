@@ -8,4 +8,3 @@ public sealed class AboutViewModel : ViewModelBase
     public string Tagline => AppBranding.Tagline;
     public string Credit => AppBranding.Credit;
 }
-

@@ -19,4 +19,3 @@ Made by Sanskar.
 
 SCX-TODO: Add source, tests, and documentation for this module.
 "@ | Set-Content (Join-Path $target "README.md")
-

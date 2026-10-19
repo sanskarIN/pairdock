@@ -6,4 +6,3 @@
     <ProjectReference Include="..\..\src\SanskarConnectX.Application\SanskarConnectX.Application.csproj" />
   </ItemGroup>
 </Project>
-

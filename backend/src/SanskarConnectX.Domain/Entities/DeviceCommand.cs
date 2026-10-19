@@ -27,4 +27,3 @@ public sealed class DeviceCommand : Entity
         Touch(timestampUtc);
     }
 }
-

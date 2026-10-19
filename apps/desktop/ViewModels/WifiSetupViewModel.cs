@@ -11,4 +11,3 @@ public sealed class WifiSetupViewModel : ViewModelBase
         OnPropertyChanged(nameof(IsProvisioning));
     }
 }
-

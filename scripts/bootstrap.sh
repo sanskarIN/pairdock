@@ -7,4 +7,3 @@ echo "Made by Sanskar"
 
 dotnet --version
 cmake --version
-

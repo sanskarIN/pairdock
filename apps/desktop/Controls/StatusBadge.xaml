@@ -5,4 +5,3 @@
     <TextBlock Text="Online" Foreground="#22C55E" FontWeight="SemiBold" />
   </Border>
 </UserControl>
-

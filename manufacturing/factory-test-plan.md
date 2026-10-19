@@ -17,4 +17,3 @@
 - Certificate presence.
 
 Each device must pass before packaging.
-

@@ -9,4 +9,3 @@
     <ProjectReference Include="..\..\apps\desktop\SanskarConnectX.Desktop.csproj" />
   </ItemGroup>
 </Project>
-

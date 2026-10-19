@@ -7,4 +7,3 @@
 - Command queue latency.
 - Firmware manifest lookup latency.
 - Device simulator fan-out.
-

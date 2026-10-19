@@ -12,4 +12,3 @@ public enum ErrorCode
     CommandUnsupported = 1006,
     InternalError = 1999
 }
-

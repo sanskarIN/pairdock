@@ -23,4 +23,3 @@ public sealed class CommandRepository : ICommandRepository
             .OrderBy(x => x.CreatedUtc)
             .ToListAsync(cancellationToken);
 }
-

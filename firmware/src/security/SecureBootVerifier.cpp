@@ -7,4 +7,3 @@ bool SecureBootVerifier::verifyBootConfiguration() const {
 }
 
 }
-

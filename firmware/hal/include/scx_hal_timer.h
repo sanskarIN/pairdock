@@ -15,4 +15,3 @@ void scx_hal_timer_delay_ms(uint32_t delay_ms);
 #endif
 
 #endif
-

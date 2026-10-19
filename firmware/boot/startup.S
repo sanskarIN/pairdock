@@ -9,4 +9,3 @@
 scx_reset_handler:
   /* SCX-TODO: Set stack pointer, initialize memory, and jump to app entry. */
   ret
-

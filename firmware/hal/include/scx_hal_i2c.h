@@ -18,4 +18,3 @@ scx_error_t scx_hal_i2c_read(int bus, uint8_t address, uint8_t *buffer, size_t l
 #endif
 
 #endif
-

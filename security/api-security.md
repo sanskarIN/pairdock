@@ -9,4 +9,3 @@
 - Structured error handling.
 - Audit logs for admin and device command actions.
 - Health endpoints must not leak secrets.
-

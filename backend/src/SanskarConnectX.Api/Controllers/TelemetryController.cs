@@ -22,4 +22,3 @@ public sealed class TelemetryController : ControllerBase
         return result.Succeeded ? Accepted(result.Data) : BadRequest(result);
     }
 }
-

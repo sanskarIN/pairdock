@@ -21,4 +21,3 @@ public sealed class AuditLog : Entity
         DetailsJson = detailsJson;
     }
 }
-

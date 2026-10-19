@@ -22,4 +22,3 @@ public sealed class Notification : Entity
 
     public void MarkRead() => IsRead = true;
 }
-

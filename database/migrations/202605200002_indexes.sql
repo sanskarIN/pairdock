@@ -7,4 +7,3 @@ CREATE INDEX IF NOT EXISTS IX_Notifications_User_Read ON Notifications(UserId, I
 CREATE INDEX IF NOT EXISTS IX_ApiKeys_User ON ApiKeys(UserId);
 
 COMMIT;
-

@@ -7,4 +7,3 @@ SensorSnapshot SensorManager::sample() const {
 }
 
 }
-

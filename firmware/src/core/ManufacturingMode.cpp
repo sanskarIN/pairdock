@@ -12,4 +12,3 @@ std::vector<ManufacturingTestResult> ManufacturingMode::runSelfTest() const {
 }
 
 }
-

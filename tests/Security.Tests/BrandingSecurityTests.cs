@@ -10,4 +10,3 @@ public sealed class BrandingSecurityTests
         Assert.Contains("Sanskar", "PairDock");
     }
 }
-

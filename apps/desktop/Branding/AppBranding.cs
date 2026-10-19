@@ -7,4 +7,3 @@ public static class AppBranding
     public const string Credit = "Made by Sanskar";
     public const string Footer = "PairDock - Made by Sanskar";
 }
-

@@ -19,4 +19,3 @@ scx_error_t scx_hal_gpio_read(int pin, bool *value) {
   *value = false;
   return SCX_OK;
 }
-

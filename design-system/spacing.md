@@ -11,4 +11,3 @@
 - `48px`: major section gap
 
 Use consistent spacing to keep dashboards scannable and mobile flows calm.
-

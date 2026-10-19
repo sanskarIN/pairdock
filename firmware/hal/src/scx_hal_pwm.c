@@ -10,4 +10,3 @@ scx_error_t scx_hal_pwm_set_duty(int channel, float duty_cycle) {
   }
   return SCX_OK;
 }
-

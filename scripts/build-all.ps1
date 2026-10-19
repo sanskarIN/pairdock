@@ -5,4 +5,3 @@ dotnet build "$PSScriptRoot/../shared/protocol/csharp/SanskarConnectX.Protocol.c
 dotnet build "$PSScriptRoot/../sdk/SanskarConnectX.Sdk.csproj"
 dotnet build "$PSScriptRoot/../backend/src/SanskarConnectX.Api/SanskarConnectX.Api.csproj"
 dotnet build "$PSScriptRoot/../apps/web-dashboard/SanskarConnectX.WebDashboard.csproj"
-

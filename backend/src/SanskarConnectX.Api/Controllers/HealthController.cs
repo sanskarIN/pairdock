@@ -14,4 +14,3 @@ public sealed class HealthController : ControllerBase
         credit = "Made by Sanskar"
     });
 }
-

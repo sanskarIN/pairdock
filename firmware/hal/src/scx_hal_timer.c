@@ -9,4 +9,3 @@ uint64_t scx_hal_timer_millis(void) {
 void scx_hal_timer_delay_ms(uint32_t delay_ms) {
   s_fake_millis += delay_ms;
 }
-

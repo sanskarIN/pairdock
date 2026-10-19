@@ -10,4 +10,3 @@
 6. Run factory test suite.
 
 SCX-TODO: Add exact ESP-IDF flashing commands when board package is finalized.
-

@@ -10,4 +10,3 @@ public sealed class InfrastructureRegistrationTests
         Assert.True(true);
     }
 }
-

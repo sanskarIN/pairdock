@@ -54,4 +54,3 @@ The following Phase 2 builds were verified locally:
 - Add real BLE adapter and ESP-IDF provisioning implementation.
 - Add OpenAPI-generated SDK clients.
 - Add visual dashboard verification through browser automation.
-

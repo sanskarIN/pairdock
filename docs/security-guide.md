@@ -15,4 +15,3 @@ PairDock protects provisioning, identity, commands, telemetry, and OTA.
 See `security/` for dedicated topic documents.
 
 Made by Sanskar.
-

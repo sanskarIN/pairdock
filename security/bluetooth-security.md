@@ -12,4 +12,3 @@
 - Short-lived pairing session.
 - Encrypted provisioning payload.
 - Device leaves pairing mode after timeout.
-

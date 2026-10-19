@@ -7,4 +7,3 @@
     <ProjectReference Include="..\..\shared\protocol\csharp\SanskarConnectX.Protocol.csproj" />
   </ItemGroup>
 </Project>
-

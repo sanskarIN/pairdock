@@ -7,4 +7,3 @@ Write-Host "Made by Sanskar"
 
 dotnet --version
 cmake --version
-

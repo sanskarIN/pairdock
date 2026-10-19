@@ -15,4 +15,3 @@ scx_error_t scx_hal_uart_read(int port, uint8_t *buffer, size_t length, size_t *
   *bytes_read = length == 0 ? 0 : 0;
   return SCX_OK;
 }
-

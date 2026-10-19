@@ -8,4 +8,3 @@
 - Secrets masked in logs.
 - Firmware signature required.
 - Pairing sessions expire.
-

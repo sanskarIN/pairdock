@@ -7,4 +7,3 @@
 - Wi-Fi provisioning form.
 - Offline queue behavior.
 - About page branding.
-

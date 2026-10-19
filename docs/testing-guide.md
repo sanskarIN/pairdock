@@ -18,4 +18,3 @@
 Every behavior that crosses a boundary needs a test or a documented manual verification plan.
 
 SCX-TODO: Wire all automated tests into CI in Phase 2.
-

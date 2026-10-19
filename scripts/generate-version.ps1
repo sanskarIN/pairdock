@@ -13,4 +13,3 @@ $metadata = @{
 }
 
 $metadata | ConvertTo-Json | Set-Content "$PSScriptRoot/../metadata/version.generated.json"
-

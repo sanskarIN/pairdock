@@ -38,4 +38,3 @@ DevOps, monitoring, security, manufacturing, and tests provide the controls need
 ## Expansion Guidance
 
 SCX-TODO: Add a C4 container diagram and deployment topology diagram in Phase 2.
-

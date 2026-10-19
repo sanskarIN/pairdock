@@ -3,4 +3,3 @@ RUN apt-get update && apt-get install -y cmake ninja-build build-essential git p
 WORKDIR /workspace
 COPY firmware ./firmware
 RUN cmake -S firmware -B firmware/build && cmake --build firmware/build
-

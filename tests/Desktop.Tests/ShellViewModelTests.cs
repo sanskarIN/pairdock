@@ -12,4 +12,3 @@ public sealed class ShellViewModelTests
         Assert.Contains("Made by Sanskar", vm.FooterText);
     }
 }
-

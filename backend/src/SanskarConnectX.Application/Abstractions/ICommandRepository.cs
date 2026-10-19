@@ -7,4 +7,3 @@ public interface ICommandRepository
     Task AddAsync(DeviceCommand command, CancellationToken cancellationToken);
     Task<IReadOnlyList<DeviceCommand>> PendingForDeviceAsync(Guid deviceId, CancellationToken cancellationToken);
 }
-

@@ -13,4 +13,3 @@ int main() {
   assert(called);
   return 0;
 }
-

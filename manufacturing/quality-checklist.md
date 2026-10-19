@@ -8,4 +8,3 @@
 - Enclosure inspected.
 - Packaging checklist completed.
 - Audit record saved.
-

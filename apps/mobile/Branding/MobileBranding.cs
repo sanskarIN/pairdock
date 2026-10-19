@@ -7,4 +7,3 @@ public static class MobileBranding
     public const string Credit = "Made by Sanskar";
     public const string SplashText = "PairDock - Made by Sanskar";
 }
-

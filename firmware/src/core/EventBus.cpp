@@ -13,4 +13,3 @@ void EventBus::publish(const Event &event) const {
 }
 
 }
-

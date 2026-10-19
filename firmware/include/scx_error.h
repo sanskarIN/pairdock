@@ -14,4 +14,3 @@ typedef enum scx_error_t {
 } scx_error_t;
 
 #endif
-

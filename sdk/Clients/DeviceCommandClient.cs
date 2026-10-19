@@ -24,4 +24,3 @@ public sealed class DeviceCommandClient
             : SdkResult<string>.Failure($"Command failed: {response.StatusCode}");
     }
 }
-

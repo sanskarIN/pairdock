@@ -13,4 +13,3 @@ public sealed class RetryPolicyTests
         Assert.Equal("ok", value);
     }
 }
-

@@ -11,4 +11,3 @@ bool DeviceAuthenticator::verifyChallenge(const std::string &challenge, const st
 }
 
 }
-

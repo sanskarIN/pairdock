@@ -6,4 +6,3 @@ int main(void) {
   assert(scx_hal_gpio_write(2, true) == SCX_OK);
   return 0;
 }
-

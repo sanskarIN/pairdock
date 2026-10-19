@@ -6,4 +6,3 @@ public sealed class DeviceDashboardViewModel : MobileViewModelBase
     public string ConnectionState { get; init; } = "Online";
     public int BatteryPercent { get; init; } = 96;
 }
-

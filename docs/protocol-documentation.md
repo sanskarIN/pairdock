@@ -21,4 +21,3 @@ Protocol contracts live in `shared/protocol`.
 - FirmwareUpdateManifest
 
 SCX-TODO: Add protobuf or MessagePack option in Phase 3 if binary performance requires it.
-

@@ -15,4 +15,3 @@ C# MVVM desktop app skeleton for PairDock.
 - About
 
 The app footer and About page display "Made by Sanskar".
-

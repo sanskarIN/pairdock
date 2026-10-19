@@ -27,4 +27,3 @@ jobs:
           cmake -S firmware -B firmware/build
           cmake --build firmware/build
           ctest --test-dir firmware/build --output-on-failure
-

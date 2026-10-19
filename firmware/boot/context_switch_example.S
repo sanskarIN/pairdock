@@ -6,4 +6,3 @@
 scx_context_switch_example:
   /* SCX-TODO: Save registers, switch stack, restore registers. */
   ret
-

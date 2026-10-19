@@ -27,4 +27,3 @@ int WifiManager::rssi() const {
 }
 
 }
-

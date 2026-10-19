@@ -19,4 +19,3 @@ The mobile app is a .NET MAUI-style companion app focused on provisioning and de
 The app includes an offline queue service concept for commands and provisioning logs.
 
 SCX-TODO: Add secure mobile keychain storage and background sync in Phase 2.
-

@@ -18,4 +18,3 @@ scx_error_t scx_hal_storage_erase(const char *key);
 #endif
 
 #endif
-

@@ -11,4 +11,3 @@ public static class BasicUsage
         Console.WriteLine($"PairDock devices loaded: {devices.Data?.Count ?? 0}");
     }
 }
-

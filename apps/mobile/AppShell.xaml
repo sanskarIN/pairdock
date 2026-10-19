@@ -6,4 +6,3 @@
   <ShellContent Title="Pairing" Route="pairing" />
   <ShellContent Title="Settings" Route="settings" />
 </Shell>
-

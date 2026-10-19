@@ -6,4 +6,3 @@ builder.Services.AddHostedService<TelemetryRetentionWorker>();
 
 var host = builder.Build();
 host.Run();
-

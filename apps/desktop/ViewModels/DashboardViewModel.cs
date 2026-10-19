@@ -6,4 +6,3 @@ public sealed class DashboardViewModel : ViewModelBase
     public int OfflineDevices { get; init; }
     public string CloudState { get; init; } = "Connected";
 }
-

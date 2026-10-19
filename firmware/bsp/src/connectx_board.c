@@ -32,4 +32,3 @@ scx_error_t scx_board_init(void) {
 const char *scx_board_name(void) {
   return "SanskarConnectX-DevKit";
 }
-

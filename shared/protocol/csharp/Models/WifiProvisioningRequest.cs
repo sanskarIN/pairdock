@@ -5,4 +5,3 @@ public sealed record WifiProvisioningRequest(
     string Ssid,
     string Password,
     string ApiBaseUrl);
-

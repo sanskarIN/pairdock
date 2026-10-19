@@ -17,4 +17,3 @@
 - GPIO, UART, SPI, I2C, ADC, PWM.
 - BLE pairing and Wi-Fi provisioning.
 - OTA install and rollback.
-

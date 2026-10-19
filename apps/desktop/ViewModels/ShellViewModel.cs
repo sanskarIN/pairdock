@@ -15,4 +15,3 @@ public sealed class ShellViewModel : ViewModelBase
         OnPropertyChanged(nameof(SelectedPage));
     }
 }
-

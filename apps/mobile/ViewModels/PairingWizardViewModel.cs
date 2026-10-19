@@ -11,4 +11,3 @@ public sealed class PairingWizardViewModel : MobileViewModelBase
         OnPropertyChanged(nameof(CurrentStep));
     }
 }
-

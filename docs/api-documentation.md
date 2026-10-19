@@ -33,4 +33,3 @@ https://localhost:7241/api
 ```
 
 SCX-TODO: Generate OpenAPI examples in Phase 2.
-

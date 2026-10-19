@@ -10,4 +10,3 @@ public sealed class PairingWizardViewModelTests
         Assert.Contains("Bluetooth pairing", "Bluetooth pairing wizard");
     }
 }
-

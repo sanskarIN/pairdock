@@ -22,4 +22,3 @@ public sealed class FirmwareClient
         return SdkResult<IReadOnlyList<FirmwareVersionSummary>>.Success(versions ?? new List<FirmwareVersionSummary>());
     }
 }
-

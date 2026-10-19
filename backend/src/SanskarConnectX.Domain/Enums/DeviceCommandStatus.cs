@@ -9,4 +9,3 @@ public enum DeviceCommandStatus
     Failed = 4,
     Expired = 5
 }
-

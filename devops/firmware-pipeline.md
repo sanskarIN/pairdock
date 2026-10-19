@@ -9,4 +9,3 @@
 5. Sign firmware package.
 6. Publish OTA manifest.
 7. Upload release artifact to backend.
-

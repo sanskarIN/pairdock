@@ -14,4 +14,3 @@ scx_interrupt_vectors:
 scx_default_isr:
   /* SCX-TODO: Capture interrupt source and forward to diagnostics. */
   ret
-

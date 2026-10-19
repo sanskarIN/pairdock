@@ -8,4 +8,3 @@
 - FirmwareClient lists firmware.
 - DeviceCommandClient queues commands.
 - RetryPolicy retries transient failures.
-

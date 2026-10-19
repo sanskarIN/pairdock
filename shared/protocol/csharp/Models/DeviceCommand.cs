@@ -6,4 +6,3 @@ public sealed record DeviceCommand(
     string CommandType,
     IReadOnlyDictionary<string, string> Parameters,
     DateTimeOffset ExpiresUtc);
-

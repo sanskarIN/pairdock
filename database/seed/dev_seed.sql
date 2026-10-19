@@ -11,4 +11,3 @@ VALUES (
   TRUE
 )
 ON CONFLICT (Version, HardwareRevision) DO NOTHING;
-

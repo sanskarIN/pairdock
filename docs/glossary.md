@@ -9,4 +9,3 @@
 - Device Command: Cloud or app instruction sent to a device.
 - Manufacturing Mode: Firmware mode used for factory validation.
 - Pairing Session: Short-lived secure association between app and device.
-

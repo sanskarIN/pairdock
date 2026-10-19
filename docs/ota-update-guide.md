@@ -16,4 +16,3 @@
 The firmware must keep enough state to rollback when the new image fails health checks.
 
 SCX-TODO: Add full signed package builder and rollback tests in Phase 2.
-

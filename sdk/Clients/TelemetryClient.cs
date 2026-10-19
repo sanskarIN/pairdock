@@ -25,4 +25,3 @@ public sealed class TelemetryClient
             : SdkResult<string>.Failure($"Telemetry failed: {response.StatusCode}");
     }
 }
-

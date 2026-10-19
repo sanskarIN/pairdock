@@ -19,4 +19,3 @@
 ```css
 linear-gradient(135deg, #2563eb 0%, #7c3aed 100%)
 ```
-

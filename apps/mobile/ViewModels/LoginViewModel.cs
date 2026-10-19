@@ -6,4 +6,3 @@ public sealed class LoginViewModel : MobileViewModelBase
     public string Password { get; set; } = string.Empty;
     public bool IsBusy { get; private set; }
 }
-

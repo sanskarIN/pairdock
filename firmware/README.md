@@ -32,4 +32,3 @@ cmake --build build
 ```
 
 SCX-TODO: Replace host-safe placeholder HAL bodies with ESP-IDF implementations in Phase 2.
-

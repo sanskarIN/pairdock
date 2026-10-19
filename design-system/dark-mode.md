@@ -11,4 +11,3 @@ Dark mode uses charcoal backgrounds, elevated panels, and blue-purple accents.
 - Muted text: `#a8b3c7`
 
 Avoid making the UI a single dark-blue palette; use cyan, green, amber, and neutral contrast for state.
-

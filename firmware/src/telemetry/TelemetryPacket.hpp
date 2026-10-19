@@ -17,4 +17,3 @@ struct TelemetryPacket {
 std::string toJson(const TelemetryPacket &packet);
 
 }
-

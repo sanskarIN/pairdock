@@ -17,4 +17,3 @@ public sealed class RequestValidatorTests
         Assert.True(RequestValidator.HasDeviceId("SCX-DEVKIT-001"));
     }
 }
-

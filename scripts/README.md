@@ -13,4 +13,3 @@ Made by Sanskar.
 - `lint.ps1`: lint/static check placeholder.
 - `generate-version.ps1`: create version metadata.
 - `new-module.ps1`: scaffold future modules consistently.
-

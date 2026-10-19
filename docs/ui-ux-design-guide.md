@@ -24,4 +24,3 @@ PairDock uses a premium modern SaaS dashboard direction.
 - Keep keyboard navigation and accessible contrast.
 
 See `design-system/`.
-

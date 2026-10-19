@@ -6,4 +6,3 @@ public sealed record ProtocolEnvelope<TPayload>(
     string MessageId,
     DateTimeOffset TimestampUtc,
     TPayload Payload);
-

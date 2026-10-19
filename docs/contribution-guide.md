@@ -13,4 +13,3 @@ Contributions should preserve the architecture and branding:
 3. Add tests or test docs.
 4. Update docs and examples.
 5. Mark future work with `SCX-TODO:`.
-

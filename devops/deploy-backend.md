@@ -10,4 +10,3 @@
 6. Verify telemetry ingestion.
 
 SCX-TODO: Add cloud-specific infrastructure in Phase 3.
-

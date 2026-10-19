@@ -7,4 +7,3 @@ public sealed class DeviceDetailViewModel : ViewModelBase
     public int SignalStrength { get; init; } = 82;
     public string ConnectionState { get; init; } = "Online";
 }
-

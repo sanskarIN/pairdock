@@ -7,4 +7,3 @@ public sealed class LocalSettingsService
     public string? Get(string key) => values.TryGetValue(key, out var value) ? value : null;
     public void Set(string key, string value) => values[key] = value;
 }
-

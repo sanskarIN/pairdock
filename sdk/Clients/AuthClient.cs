@@ -28,4 +28,3 @@ public sealed class AuthClient
         return session is null ? SdkResult<AuthSession>.Failure("Empty login response.") : SdkResult<AuthSession>.Success(session);
     }
 }
-

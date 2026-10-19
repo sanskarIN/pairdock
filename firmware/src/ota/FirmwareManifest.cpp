@@ -7,4 +7,3 @@ bool isManifestCompatible(const FirmwareManifest &manifest, const std::string &h
 }
 
 }
-

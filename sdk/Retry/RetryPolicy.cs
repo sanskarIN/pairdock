@@ -24,4 +24,3 @@ public sealed class RetryPolicy
         throw lastError ?? new InvalidOperationException("Retry failed without exception.");
     }
 }
-

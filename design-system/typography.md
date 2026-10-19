@@ -16,4 +16,3 @@ font-family: Inter, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
 - Body: 16px / 24px / 400
 - Label: 13px / 18px / 600
 - Caption: 12px / 16px / 500
-

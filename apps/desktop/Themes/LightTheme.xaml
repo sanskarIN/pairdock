@@ -5,4 +5,3 @@
   <SolidColorBrush x:Key="ScxTextBrush" Color="#101217" />
   <SolidColorBrush x:Key="ScxMutedTextBrush" Color="#475569" />
 </ResourceDictionary>
-

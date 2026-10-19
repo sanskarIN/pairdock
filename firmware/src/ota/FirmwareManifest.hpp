@@ -15,4 +15,3 @@ struct FirmwareManifest {
 bool isManifestCompatible(const FirmwareManifest &manifest, const std::string &hardwareRevision);
 
 }
-

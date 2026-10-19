@@ -7,4 +7,3 @@ public sealed record FirmwareUpdateManifest(
     string Sha256,
     string Signature,
     DateTimeOffset PublishedUtc);
-

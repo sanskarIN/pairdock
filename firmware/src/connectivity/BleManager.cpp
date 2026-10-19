@@ -20,4 +20,3 @@ const std::string &BleManager::advertisedName() const {
 }
 
 }
-

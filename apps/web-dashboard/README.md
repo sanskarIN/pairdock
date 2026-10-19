@@ -17,4 +17,3 @@ Made by Sanskar.
 - Logs
 - Settings
 - About
-

@@ -15,4 +15,3 @@ scx_error_t scx_hal_storage_read(const char *key, uint8_t *buffer, size_t buffer
 scx_error_t scx_hal_storage_erase(const char *key) {
   return key != 0 ? SCX_OK : SCX_ERROR_INVALID_ARGUMENT;
 }
-

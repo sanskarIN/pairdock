@@ -7,4 +7,3 @@ public interface ITelemetryRepository
     Task AddAsync(TelemetrySample sample, CancellationToken cancellationToken);
     Task<IReadOnlyList<TelemetrySample>> LatestForDeviceAsync(Guid deviceId, int take, CancellationToken cancellationToken);
 }
-

@@ -17,4 +17,3 @@ scx_error_t scx_hal_spi_transfer(int bus, const uint8_t *tx, uint8_t *rx, size_t
 #endif
 
 #endif
-

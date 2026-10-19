@@ -6,4 +6,3 @@
 - Serial number label.
 - Packaging seal.
 - Region-specific compliance insert when required.
-

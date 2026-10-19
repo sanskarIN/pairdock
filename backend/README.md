@@ -19,4 +19,3 @@ dotnet run --project ./src/SanskarConnectX.Api/SanskarConnectX.Api.csproj
 ```
 
 SCX-TODO: Add OpenAPI examples and production authentication policies in Phase 2.
-

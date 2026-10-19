@@ -18,4 +18,3 @@ scx_error_t scx_hal_uart_read(int port, uint8_t *buffer, size_t length, size_t *
 #endif
 
 #endif
-

@@ -9,4 +9,3 @@ int main() {
   assert(wifi.state() == scx::WifiConnectionState::Disconnected);
   return 0;
 }
-

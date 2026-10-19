@@ -18,4 +18,3 @@
 - Logs
 - Settings
 - Warning and error
-

@@ -9,4 +9,3 @@ public interface IDeviceService
     Task<ApiResult<DeviceDto>> RegisterAsync(RegisterDeviceRequest request, CancellationToken cancellationToken);
     Task<ApiResult<DeviceCommandDto>> QueueCommandAsync(string deviceId, CreateDeviceCommandRequest request, CancellationToken cancellationToken);
 }
-

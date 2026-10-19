@@ -7,4 +7,3 @@
 - Rotate API keys and signing keys.
 - Limit local developer credentials.
 - Keep firmware signing keys outside CI logs.
-
